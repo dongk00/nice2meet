@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "nice2meet"
+  },
+  "targets": {
+    "nice2meet": {
+      "hosting": {
+        "nice2meet": [
+          "nice2meet"
+        ]
+      }
+    },
+    "nice2meet-50d5b": {
+      "hosting": {
+        "nice2meet-target": [
+          "nice2meet"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "nice2meet",
+          "configurations": {
+            "web": "1:185488321027:web:bf9990cfd1c2eaabb0bc36"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "site": "nice2meet",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
